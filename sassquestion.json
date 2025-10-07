@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What does SASS stand for?",
+    "options": ["Syntactically Awesome Style Sheets", "Simple And Smart Styles", "Stylish And Super Sheets", "Super Advanced Style Syntax"],
+    "answer": "Syntactically Awesome Style Sheets"
+  },
+  {
+    "question": "Which file extension is used for SASS syntax?",
+    "options": [".sass", ".scss", ".css", ".ss"],
+    "answer": ".sass"
+  },
+  {
+    "question": "Which file extension is used for SCSS syntax?",
+    "options": [".scss", ".sass", ".css", ".sccs"],
+    "answer": ".scss"
+  },
+  {
+    "question": "Which symbol is used for variables in SASS/SCSS?",
+    "options": ["$", "@", "#", "&"],
+    "answer": "$"
+  },
+  {
+    "question": "Which symbol is used for nesting selectors in SASS/SCSS?",
+    "options": ["&", "$", "#", "@"],
+    "answer": "&"
+  },
+  {
+    "question": "Which directive imports one SASS file into another?",
+    "options": ["@import", "@use", "@extend", "@include"],
+    "answer": "@import"
+  },
+  {
+    "question": "Which directive is recommended in modern SASS to load modules?",
+    "options": ["@use", "@import", "@extend", "@include"],
+    "answer": "@use"
+  },
+  {
+    "question": "Which directive allows one selector to inherit styles from another?",
+    "options": ["@extend", "@include", "@mixin", "@use"],
+    "answer": "@extend"
+  },
+  {
+    "question": "Which directive defines reusable styles in SASS/SCSS?",
+    "options": ["@mixin", "@extend", "@include", "@use"],
+    "answer": "@mixin"
+  },
+  {
+    "question": "Which directive includes a mixin in a selector?",
+    "options": ["@include", "@mixin", "@extend", "@use"],
+    "answer": "@include"
+  },
+  {
+    "question": "Which SASS feature allows calculations in styles?",
+    "options": ["Operators", "Variables", "Mixins", "Functions"],
+    "answer": "Operators"
+  },
+  {
+    "question": "Which SASS feature allows storing reusable values?",
+    "options": ["Variables", "Mixins", "Functions", "Placeholders"],
+    "answer": "Variables"
+  },
+  {
+    "question": "Which SASS feature allows defining reusable functions in styles?",
+    "options": ["Functions", "Mixins", "Variables", "Placeholders"],
+    "answer": "Functions"
+  },
+  {
+    "question": "Which SASS feature allows placeholders for selectors that can be extended?",
+    "options": ["Placeholders", "Variables", "Mixins", "Functions"],
+    "answer": "Placeholders"
+  },
+  {
+    "question": "Which SASS directive is used to define a function?",
+    "options": ["@function", "@mixin", "@use", "@return"],
+    "answer": "@function"
+  },
+  {
+    "question": "Which SASS directive returns a value from a function?",
+    "options": ["@return", "@yield", "@output", "@value"],
+    "answer": "@return"
+  },
+  {
+    "question": "Which SASS feature allows nesting one selector inside another?",
+    "options": ["Nesting", "Mixins", "Inheritance", "Functions"],
+    "answer": "Nesting"
+  },
+  {
+    "question": "Which SASS feature allows defining conditional logic in styles?",
+    "options": ["Control Directives", "Variables", "Mixins", "Nesting"],
+    "answer": "Control Directives"
+  },
+  {
+    "question": "Which SASS control directive is used for loops?",
+    "options": ["@for", "@while", "@each", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which SASS feature allows iterating over lists or maps?",
+    "options": ["@each", "@for", "@while", "@loop"],
+    "answer": "@each"
+  },
+  {
+    "question": "Which SASS loop is used to iterate a specific number of times?",
+    "options": ["@for", "@each", "@while", "@loop"],
+    "answer": "@for"
+  },
+  {
+    "question": "Which SASS loop runs until a condition is false?",
+    "options": ["@while", "@for", "@each", "@loop"],
+    "answer": "@while"
+  },
+  {
+    "question": "Which SASS directive checks a condition and executes a block of code if true?",
+    "options": ["@if", "@else", "@elseif", "@for"],
+    "answer": "@if"
+  },
+  {
+    "question": "Which SASS directive provides an alternative block if @if condition is false?",
+    "options": ["@else", "@elseif", "@ifnot", "@default"],
+    "answer": "@else"
+  },
+  {
+    "question": "Which SASS directive checks multiple conditions sequentially?",
+    "options": ["@elseif", "@if", "@else", "@switch"],
+    "answer": "@elseif"
+  },
+  {
+    "question": "Which SASS function returns the length of a list?",
+    "options": ["length()", "size()", "count()", "listLength()"],
+    "answer": "length()"
+  },
+  {
+    "question": "Which SASS function returns the nth element of a list?",
+    "options": ["nth()", "element()", "get()", "at()"],
+    "answer": "nth()"
+  },
+  {
+    "question": "Which SASS function joins two lists into one?",
+    "options": ["join()", "append()", "concat()", "merge()"],
+    "answer": "join()"
+  },
+  {
+    "question": "Which SASS function appends an element to a list?",
+    "options": ["append()", "join()", "push()", "concat()"],
+    "answer": "append()"
+  },
+  {
+    "question": "Which SASS function removes a value from a list?",
+    "options": ["remove()", "delete()", "pop()", "splice()"],
+    "answer": "remove()"
+  },
+  {
+    "question": "Which SASS function returns the keys of a map?",
+    "options": ["map-keys()", "keys()", "mapKeys()", "get-keys()"],
+    "answer": "map-keys()"
+  },
+  {
+    "question": "Which SASS function returns the values of a map?",
+    "options": ["map-values()", "values()", "mapValues()", "get-values()"],
+    "answer": "map-values()"
+  },
+  {
+    "question": "Which SASS function gets a value from a map by key?",
+    "options": ["map-get()", "get()", "fetch()", "mapValue()"],
+    "answer": "map-get()"
+  },
+  {
+    "question": "Which SASS function checks if a key exists in a map?",
+    "options": ["map-has-key()", "hasKey()", "exists()", "contains()"],
+    "answer": "map-has-key()"
+  },
+  {
+    "question": "Which SASS function converts a color to grayscale?",
+    "options": ["grayscale()", "lighten()", "darken()", "adjust-color()"],
+    "answer": "grayscale()"
+  },
+  {
+    "question": "Which SASS function lightens a color by a percentage?",
+    "options": ["lighten()", "darken()", "adjust-color()", "mix()"],
+    "answer": "lighten()"
+  },
+  {
+    "question": "Which SASS function darkens a color by a percentage?",
+    "options": ["darken()", "lighten()", "adjust-color()", "mix()"],
+    "answer": "darken()"
+  },
+  {
+    "question": "Which SASS function returns the mix of two colors?",
+    "options": ["mix()", "blend()", "merge()", "combine()"],
+    "answer": "mix()"
+  },
+  {
+    "question": "Which SASS function adjusts one or more properties of a color?",
+    "options": ["adjust-color()", "change-color()", "modify-color()", "tint-color()"],
+    "answer": "adjust-color()"
+  },
+  {
+    "question": "Which SASS function returns the percentage representation of a number?",
+    "options": ["percentage()", "percent()", "ratio()", "calc-percentage()"],
+    "answer": "percentage()"
+  },
+  {
+    "question": "Which SASS function returns the absolute value of a number?",
+    "options": ["abs()", "absolute()", "value()", "num()"],
+    "answer": "abs()"
+  },
+  {
+    "question": "Which SASS function returns the ceiling of a number?",
+    "options": ["ceil()", "floor()", "round()", "trunc()"],
+    "answer": "ceil()"
+  },
+  {
+    "question": "Which SASS function returns the floor of a number?",
+    "options": ["floor()", "ceil()", "round()", "trunc()"],
+    "answer": "floor()"
+  },
+  {
+    "question": "Which SASS function returns the maximum of a list of numbers?",
+    "options": ["max()", "min()", "highest()", "largest()"],
+    "answer": "max()"
+  },
+  {
+    "question": "Which SASS function returns the minimum of a list of numbers?",
+    "options": ["min()", "max()", "smallest()", "lowest()"],
+    "answer": "min()"
+  },
+  {
+    "question": "Which SASS function returns a random number between 0 and a given number?",
+    "options": ["random()", "rand()", "randomize()", "rnd()"],
+    "answer": "random()"
+  },
+  {
+    "question": "Which SASS feature allows extending placeholder selectors?",
+    "options": ["@extend", "@include", "@mixin", "@use"],
+    "answer": "@extend"
+  },
+  {
+    "question": "Which SASS feature allows creating reusable chunks of CSS?",
+    "options": ["Mixins", "Variables", "Functions", "Placeholders"],
+    "answer": "Mixins"
+  },
+  {
+    "question": "Which SASS feature allows using variables within mixins?",
+    "options": ["Arguments", "Parameters", "Inputs", "Values"],
+    "answer": "Arguments"
+  },
+  {
+    "question": "Which SASS function converts a number to a unitless value?",
+    "options": ["unitless()", "strip-unit()", "remove-unit()", "convert()"],
+    "answer": "unitless()"
+  },
+  {
+    "question": "Which SASS function returns the type of a value?",
+    "options": ["type-of()", "typeof()", "get-type()", "value-type()"],
+    "answer": "type-of()"
+  },
+  {
+    "question": "Which SASS function checks if a value is a number?",
+    "options": ["is-number()", "number?", "isnum()", "isNumeric()"],
+    "answer": "is-number()"
+  },
+  {
+    "question": "Which SASS function checks if a value is a string?",
+    "options": ["is-string()", "string?", "isstr()", "isText()"],
+    "answer": "is-string()"
+  },
+  {
+    "question": "Which SASS function checks if a value is a color?",
+    "options": ["is-color()", "color?", "isColor()", "check-color()"],
+    "answer": "is-color()"
+  },
+  {
+    "question": "Which SASS function checks if a value is a list?",
+    "options": ["is-list()", "list?", "isList()", "check-list()"],
+    "answer": "is-list()"
+  },
+  {
+    "question": "Which SASS function checks if a value is a map?",
+    "options": ["is-map()", "map?", "isMap()", "check-map()"],
+    "answer": "is-map()"
+  },
+  {
+    "question": "Which SASS function merges two maps into one?",
+    "options": ["map-merge()", "merge()", "combine()", "map-combine()"],
+    "answer": "map-merge()"
+  },
+  {
+    "question": "Which SASS function returns true if a value is null?",
+    "options": ["null?", "is-null()", "empty?", "none()"],
+    "answer": "null?"
+  },
+  {
+    "question": "Which SASS function returns the percentage of a fraction?",
+    "options": ["percentage()", "percent()", "ratio()", "fraction()"],
+    "answer": "percentage()"
+  },
+  {
+    "question": "Which SASS function rounds a number to the nearest integer?",
+    "options": ["round()", "ceil()", "floor()", "trunc()"],
+    "answer": "round()"
+  },
+  {
+    "question": "Which SASS function truncates a number to remove decimals?",
+    "options": ["trunc()", "floor()", "ceil()", "round()"],
+    "answer": "trunc()"
+  },
+  {
+    "question": "Which SASS function returns the unit of a number?",
+    "options": ["unit()", "unit-of()", "get-unit()", "number-unit()"],
+    "answer": "unit()"
+  },
+  {
+    "question": "Which SASS function adds units to a number?",
+    "options": ["unit()", "unitless()", "add-unit()", "set-unit()"],
+    "answer": "unit()"
+  },
+  {
+    "question": "Which SASS function sets a color’s red, green, and blue components?",
+    "options": ["rgb()", "rgba()", "hsl()", "adjust-color()"],
+    "answer": "rgb()"
+  },
+  {
+    "question": "Which SASS function sets a color’s red, green, blue, and alpha components?",
+    "options": ["rgba()", "rgb()", "hsl()", "hsla()"],
+    "answer": "rgba()"
+  },
+  {
+    "question": "Which SASS function sets a color using hue, saturation, and lightness?",
+    "options": ["hsl()", "hsla()", "rgb()", "rgba()"],
+    "answer": "hsl()"
+  },
+  {
+    "question": "Which SASS function sets a color using hue, saturation, lightness, and alpha?",
+    "options": ["hsla()", "hsl()", "rgba()", "rgb()"],
+    "answer": "hsla()"
+  },
+  {
+    "question": "Which SASS function adjusts a color’s hue by a degree value?",
+    "options": ["adjust-hue()", "change-hue()", "rotate-hue()", "modify-hue()"],
+    "answer": "adjust-hue()"
+  },
+  {
+    "question": "Which SASS function increases the saturation of a color?",
+    "options": ["saturate()", "desaturate()", "adjust-color()", "lighten()"],
+    "answer": "saturate()"
+  },
+  {
+    "question": "Which SASS function decreases the saturation of a color?",
+    "options": ["desaturate()", "saturate()", "adjust-color()", "darken()"],
+    "answer": "desaturate()"
+  },
+  {
+    "question": "Which SASS function increases the lightness of a color?",
+    "options": ["lighten()", "darken()", "adjust-color()", "brighten()"],
+    "answer": "lighten()"
+  },
+  {
+    "question": "Which SASS function decreases the lightness of a color?",
+    "options": ["darken()", "lighten()", "adjust-color()", "dim()"],
+    "answer": "darken()"
+  },
+  {
+    "question": "Which SASS function returns the complement of a color?",
+    "options": ["complement()", "invert()", "opposite()", "contrast()"],
+    "answer": "complement()"
+  },
+  {
+    "question": "Which SASS function inverts a color?",
+    "options": ["invert()", "complement()", "reverse()", "negate()"],
+    "answer": "invert()"
+  },
+  {
+    "question": "Which SASS function mixes two colors together?",
+    "options": ["mix()", "blend()", "combine()", "merge()"],
+    "answer": "mix()"
+  },
+  {
+    "question": "Which SASS function returns the red component of a color?",
+    "options": ["red()", "green()", "blue()", "color-red()"],
+    "answer": "red()"
+  },
+  {
+    "question": "Which SASS function returns the green component of a color?",
+    "options": ["green()", "red()", "blue()", "color-green()"],
+    "answer": "green()"
+  },
+  {
+    "question": "Which SASS function returns the blue component of a color?",
+    "options": ["blue()", "red()", "green()", "color-blue()"],
+    "answer": "blue()"
+  },
+  {
+    "question": "Which SASS function returns the hue of a color in degrees?",
+    "options": ["hue()", "saturation()", "lightness()", "adjust-hue()"],
+    "answer": "hue()"
+  },
+  {
+    "question": "Which SASS function returns the saturation of a color as a percentage?",
+    "options": ["saturation()", "hue()", "lightness()", "adjust-color()"],
+    "answer": "saturation()"
+  },
+  {
+    "question": "Which SASS function returns the lightness of a color as a percentage?",
+    "options": ["lightness()", "hue()", "saturation()", "adjust-color()"],
+    "answer": "lightness()"
+  },
+  {
+    "question": "Which SASS function returns the alpha (opacity) of a color?",
+    "options": ["alpha()", "opacity()", "transparency()", "a()"],
+    "answer": "alpha()"
+  },
+  {
+    "question": "Which SASS function sets the alpha (opacity) of a color?",
+    "options": ["opacify()", "fade-in()", "adjust-alpha()", "all of the above"],
+    "answer": "all of the above"
+  },
+  {
+    "question": "Which SASS function decreases the alpha (opacity) of a color?",
+    "options": ["transparentize()", "fade-out()", "adjust-alpha()", "all of the above"],
+    "answer": "all of the above"
+  },
+  {
+    "question": "Which SASS function returns a color with a specified transparency percentage?",
+    "options": ["rgba()", "hsla()", "transparentize()", "opacify()"],
+    "answer": "rgba()"
+  },
+  {
+    "question": "Which SASS function converts a color to grayscale?",
+    "options": ["grayscale()", "lighten()", "desaturate()", "invert()"],
+    "answer": "grayscale()"
+  },
+  {
+    "question": "Which SASS function tints a color by mixing it with white?",
+    "options": ["tint()", "shade()", "mix()", "lighten()"],
+    "answer": "tint()"
+  },
+  {
+    "question": "Which SASS function shades a color by mixing it with black?",
+    "options": ["shade()", "tint()", "darken()", "mix()"],
+    "answer": "shade()"
+  },
+  {
+    "question": "Which SASS function sets a color’s hue, saturation, and lightness?",
+    "options": ["hsl()", "hsla()", "rgb()", "rgba()"],
+    "answer": "hsl()"
+  },
+  {
+    "question": "Which SASS function sets a color’s hue, saturation, lightness, and alpha?",
+    "options": ["hsla()", "hsl()", "rgba()", "rgb()"],
+    "answer": "hsla()"
+  },
+  {
+    "question": "Which SASS function returns true if a list contains a specific value?",
+    "options": ["index()", "contains()", "has()", "find()"],
+    "answer": "index()"
+  },
+  {
+    "question": "Which SASS function returns the length of a map?",
+    "options": ["map-length()", "length()", "size()", "count()"],
+    "answer": "map-length()"
+  },
+  {
+    "question": "Which SASS function returns the nth key from a map?",
+    "options": ["map-keys()", "nth()", "map-get()", "key-at()"],
+    "answer": "map-keys()"
+  },
+  {
+    "question": "Which SASS function returns the nth value from a map?",
+    "options": ["map-values()", "nth()", "map-get()", "value-at()"],
+    "answer": "map-values()"
+  },
+  {
+    "question": "Which SASS function checks if a value is a list?",
+    "options": ["type-of() == 'list'", "is-list()", "list?", "all of the above"],
+    "answer": "all of the above"
+  },
+  {
+    "question": "Which SASS function checks if a value is a map?",
+    "options": ["type-of() == 'map'", "is-map()", "map?", "all of the above"],
+    "answer": "all of the above"
+  },
+  {
+    "question": "Which SASS function checks if a value is a color?",
+    "options": ["is-color()", "type-of() == 'color'", "color?", "all of the above"],
+    "answer": "all of the above"
+  },
+  {
+    "question": "Which SASS feature allows modularizing SASS files for better organization?",
+    "options": ["@use and @forward", "@import", "@mixin", "@extend"],
+    "answer": "@use and @forward"
+  },
+  {
+    "question": "Which SASS directive forwards modules to make them available to other files?",
+    "options": ["@forward", "@use", "@import", "@mixin"],
+    "answer": "@forward"
+  },
+  {
+    "question": "Which SASS feature helps prevent variable and mixin name conflicts?",
+    "options": ["Namespaces with @use", "@import", "@extend", "@mixin"],
+    "answer": "Namespaces with @use"
+  }
+]
